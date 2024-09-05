@@ -27,9 +27,18 @@ To use the SVG extension, include the `svg_ext.js` script in your HTML and add t
 
 This example demonstrates how to update the radius of a circle dynamically:
 
+```
+G(id="ex-innerSVG",  hx_ext="svg-ext", hx_swap="innerSVG",  hx_target="#ex-innerSVG",  hx_get="/innerSVG",hx_trigger="click")(...)
+```
+this activates the extension, specifies the swap method, the target element, the trigger, and the route.
+
 ### 2. Before End SVG Swap (ex2.py)
 
 This example shows how to add new SVG elements using the `beforeendSVG` swap method:
+
+```
+G(id="ex-beforeEnd", hx_ext="svg-ext", hx_swap="beforeendSVG", hx_target="#ex-beforeEnd", hx_get="/beforeEnd",hx_trigger="click")
+```
 
 ### 3. Outer SVG Swap (ex3.py)
 

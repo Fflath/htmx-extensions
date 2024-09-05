@@ -5,8 +5,7 @@ import random
 
 app, rt = fast_app(live=True, hdrs=[Script(src="svg_ext.js")])
 
-def innerSVG():
-    return Circle(cx=15, cy=10, r=random.randint(1,10), fill="red")
+def innerSVG(): return Circle(cx=15, cy=10, r=random.randint(1,10), fill="red")
 
 @app.get('/')
 def homepage():
