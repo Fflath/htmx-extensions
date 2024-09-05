@@ -19,7 +19,7 @@ The SVG extension supports the following swap methods:
 
 ## Usage
 
-To use the SVG extension, include the `svg_ext.js` script in your HTML and add the `hx-ext="svg-ext"` attribute to your SVG elements or their containers.
+To use the SVG extension, include the `svg_ext.js` script in your HTML and add the `hx-ext="svg-ext"` attribute to your SVG elements or their containers. Instead of the normal hx-swap options use one of the svg swaps to interact with SVGs. The rest of the htmx functionality should work as normal.
 
 ## Examples
 
